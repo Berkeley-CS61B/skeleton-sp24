@@ -9,17 +9,6 @@ import static com.google.common.truth.Truth.assertWithMessage;
 public class LinkedListDeque61BTest {
 
     // @Test
-    // @DisplayName("LinkedListDeque61B has no fields besides nodes and primitives")
-    // void noNonTrivialFields() {
-    //     Class<?> nodeClass = NodeChecker.getNodeClass(LinkedListDeque61B.class, true);
-    //     List<Field> badFields = Reflection.getFields(LinkedListDeque61B.class)
-    //             .filter(f -> !(f.getType().isPrimitive() || f.getType().equals(nodeClass) || f.isSynthetic()))
-    //             .toList();
-
-    //     assertWithMessage("Found fields that are not nodes or primitives").that(badFields).isEmpty();
-    // }
-
-    // @Test
     // /** In this test, we have three different assert statements that verify that addFirst works correctly. */
     // public void addFirstTestBasic() {
     //     Deque61B<String> lld1 = new LinkedListDeque61B<>();
