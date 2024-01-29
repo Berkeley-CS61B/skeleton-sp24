@@ -1,0 +1,11 @@
+In Soda 326, you can find the computers known as "The Hive". It is a little-known fact that
+they are called this because they are home to (friendly) robotic bees. How many bees do you see?
+
+-.- -.- -.-
+How about now?
+-.- -.- -.- -.- -.- -.- -.-
+How about now?
+-.- -.- -.- -.- -.- -.- -.-
+Those sure were some bees!
+Phew, that was a lot of counting! It's time for Professor Hug's office hours! Let's head up to his office on the 7th floor.
+>> [go]
