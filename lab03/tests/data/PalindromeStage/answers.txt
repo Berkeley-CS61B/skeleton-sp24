@@ -1,0 +1,8 @@
+The Woz is a cool name, much better than "Soda 430". Soda 606 is a neat, symmetric conference room,
+like its number. We could rename The Woz to be palindromic, but it sounds so cool! Why not change the
+room number instead?
+(Give a palindromic room number.)
+
+Wow, nice room number!
+Hmm, you're getting hungry. Where do you want to go?
+>> [hearst food court] [va cafe]

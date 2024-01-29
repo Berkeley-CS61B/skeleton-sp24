@@ -1,0 +1,14 @@
+Inside Professor Hug's office, you see some O'Reilly books. These books have cool animals on the
+covers. As a budding computer scientist, you should be able to identify all kinds of neat animals.
+Here's a few:
+
+- These large felines with spots will teach you how to react quickly.
+- This native american bovine can be found in the plains, and happens to be EXTREMELY good at Java.
+- Type their names into the terminal (separated by ',')
+Woah! There are even more neat books here!
+- These bushy-tailed friends are everywhere in and around the trees on campus, and know the best parts of Java.
+- These tiny birds flap very fast, drink nectar, and know how to make simpler Java appplications.
+- Type their names into the terminal (separated by ',')
+Well, there's nothing left here! press enter to move.
+Wow! That was pretty neat! We got to see so many neat animals! We should study now, so let's go to the Woz.
+>> [go]

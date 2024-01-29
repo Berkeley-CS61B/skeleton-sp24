@@ -1,0 +1,76 @@
+It's a wonderful day of learning about computer science! We are going to see so many cool things today!
+Let's go! (To answer the prompts, type the possibilities in the brackets to go to that choice)"
+
+>> [go]
+In Soda 326, you can find the computers known as "The Hive". It is a little-known fact that
+they are called this because they are home to (friendly) robotic bees. How many bees do you see?
+
+-.- -.- -.-
+How about now?
+-.- -.- -.- -.- -.- -.- -.-
+How about now?
+-.- -.- -.- -.- -.- -.- -.-
+You did not count the bees correctly. Let's try again!
+In Soda 326, you can find the computers known as "The Hive". It is a little-known fact that
+they are called this because they are home to (friendly) robotic bees. How many bees do you see?
+
+-.- -.-
+How about now?
+-.- -.- -.- -.- -.- -.- -.-
+How about now?
+-.- -.- -.- -.- -.- -.-
+Those sure were some bees!
+Phew, that was a lot of counting! It's time for Professor Hug's office hours! Let's head up to his office on the 7th floor.
+>> [go]
+Inside Professor Hug's office, you see some O'Reilly books. These books have cool animals on the
+covers. As a budding computer scientist, you should be able to identify all kinds of neat animals.
+Here's a few:
+
+- These large felines with spots will teach you how to react quickly.
+- This native american bovine can be found in the plains, and happens to be EXTREMELY good at Java.
+- Type their names into the terminal (separated by ',')
+Try again! You got 1 animals correct!
+Try again! You got 0 animals correct!
+Woah! There are even more neat books here!
+- These bushy-tailed friends are everywhere in and around the trees on campus, and know the best parts of Java.
+- These tiny birds flap very fast, drink nectar, and know how to make simpler Java appplications.
+- Type their names into the terminal (separated by ',')
+Try again! You got 1 animals correct!
+Well, there's nothing left here! press enter to move.
+Wow! That was pretty neat! We got to see so many neat animals! We should study now, so let's go to the Woz.
+>> [go]
+The Woz is a cool name, much better than "Soda 430". Soda 606 is a neat, symmetric conference room,
+like its number. We could rename The Woz to be palindromic, but it sounds so cool! Why not change the
+room number instead?
+(Give a palindromic room number.)
+
+That's not a palindrome! Try again.
+Wow, nice room number!
+Hmm, you're getting hungry. Where do you want to go?
+>> [hearst food court] [va cafe]
+Mm, tasty. Briefly, you wonder if free will is an illusion. You hear some people talking about a machine in Soda and decide to check it out.
+>> [go]
+On the first (zeroth?) floor of Soda, below the labs, you find a mysterious machine.
+It has holes for two lists of ints of the same length, and a third hole that looks
+like it would output a number. The label reads:
+
+    'SumOfElementWiseMax-inator'
+
+... Huh. You decide to experiment with the machine for a bit.
+
+Enter a sequence of ints, separated by commas:
+Enter a second sequence, with the same number of ints:
+The machine whirrs briefly before outputting a slip of paper, reading 26
+Does that seem right to you?
+Enter [y] if you want to move on, and anything else to try again.
+Enter a sequence of ints, separated by commas:
+Enter a second sequence, with the same number of ints:
+The machine whirrs briefly before outputting a slip of paper, reading 29
+Does that seem right to you?
+Enter [y] if you want to move on, and anything else to try again.
+Satisfied with your tinkering, you leave the machine behind.
+It's almost time for lecture! How are you attending?
+>> [li ka shing] [zoom]
+You find an open seat, set up your laptop, and join the Zoom.
+
+All in another fun day of learning computer science :)
