@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<head>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<script src="jquery.min.js"></script></head>
+<link rel="stylesheet" href="ngordnet.css">
+<script src="ngordnet.js"></script>
+
+<html>
+<body>
+
+<p><!--<canvas id="myCanvas" width="400" height="400" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>-->
+<img src="blank.png" id="plot">
+    <textarea class = "textresult" id = "textresult"></textarea>
+
+</p>
+
+          <table>
+          <tr>
+          <td>
+	          words<br>
+	          <input type="text" id="words"><br>
+          </td>
+          <td>
+            start<br>
+            <input type="text" id="start", value="2000"><br>
+          </td>
+          <td>
+            end<br>
+            <input type="text" id="end", value="2020"><br>
+          </td>
+          <td>
+            k<br>
+            <input type="text" id="k", value=""><br>
+          </td>
+          </tr>
+          </table>
+<table>
+<tr>
+    <td>
+        <div class="btn" id = "history">history</div></td>
+    <td>
+        <div class="btn" id = "historytext">history (text)</div>
+    </td>
+    <td>
+        <div class="btn" id = "hyponyms">hyponyms</div>
+    </td>
+    <td>
+        <div class="btn" id = "hypohist">hypohist</div>
+    </td>
+    <td>
+        <div class="btn" id = "commonancestors">common ancestors</div>
+    </td>
+
+</tr>
+</table>
+
+</body>
+
+</html>
