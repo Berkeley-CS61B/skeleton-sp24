@@ -1,13 +1,13 @@
 .textresult {
-    overflow-y: scroll;
-    height: 600px;
-    width: 800px;
-    resize: none;
-    display: none;
+  overflow-y: scroll;
+  height: 600px;
+  width: 800px;
+  resize: none;
+  display: none;
 }
 
 .hiddentext {
-    display: none;
+  display: none;
 }
 .btn {
   text-decoration: none;
