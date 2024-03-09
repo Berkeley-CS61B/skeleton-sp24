@@ -1,10 +1,10 @@
 $(function() {
-	plot = document.getElementById('plot');
-	textresult = document.getElementById('textresult');
+    plot = document.getElementById('plot');
+    textresult = document.getElementById('textresult');
 
-	var host;
+    var host;
 
-	//console.log(document.location.hostname);
+    //console.log(document.location.hostname);
     /* Set server URIs */
     /*if (document.location.hostname !== 'localhost') {
         host = 'http://' + document.location.host;
@@ -51,15 +51,15 @@ $(function() {
             url: history_server,
             data: params,
             success: function(data) {
-            	console.log(data)
+                console.log(data)
 
                 plot.src = 'data:image/png;base64,' + data;
 
             },
             error: function(data) {
-            	console.log("error")
-            	console.log(data);
-            	plot.src = 'data:image/png;base64,' + data;
+                console.log("error")
+                console.log(data);
+                plot.src = 'data:image/png;base64,' + data;
             },
             dataType: 'json'
         });
@@ -77,14 +77,14 @@ $(function() {
             url: historytext_server,
             data: params,
             success: function(data) {
-            	console.log(data)
+                console.log(data)
 
                 textresult.value = data;
 
             },
             error: function(data) {
-            	console.log("error")
-            	console.log(data);
+                console.log("error")
+                console.log(data);
             },
             dataType: 'json'
         });
@@ -128,15 +128,15 @@ $(function() {
             url: hypohist_server,
             data: params,
             success: function(data) {
-            	console.log(data)
+                console.log(data)
 
                 plot.src = 'data:image/png;base64,' + data;
 
             },
             error: function(data) {
-            	console.log("error")
-            	console.log(data);
-            	plot.src = 'data:image/png;base64,' + data;
+                console.log("error")
+                console.log(data);
+                plot.src = 'data:image/png;base64,' + data;
             },
             dataType: 'json'
         });
