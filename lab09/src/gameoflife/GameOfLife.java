@@ -277,7 +277,9 @@ public class GameOfLife {
         // TODO: end with a new line character.
 
 
-
+        // TODO: If you're on Windows, please make sure to use the method below,
+        // TODO: newlineReplacer to replace the "\r" character before
+        // TODO: writing into the file.
 
 
     }
