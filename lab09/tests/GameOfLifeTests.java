@@ -159,11 +159,11 @@ public class GameOfLifeTests {
         GameOfLife student = new GameOfLife(result, true);
         student.saveBoard();
 
-        byte[] f1 = Files.readAllBytes(Paths.get(SAVE_FILE));
-        byte[] f2 = Files.readAllBytes(Paths.get(SAVE_TEST));
+        String f1 = newlineReplacer(Files.readString(Paths.get(SAVE_FILE)));
+        String f2 = newlineReplacer(Files.readString(Paths.get(SAVE_TEST)));
 
         assertWithMessage("Checks that saving works and is as expected with the given seed.")
-                .that(Arrays.equals(f1, f2)).isTrue();
+                .that(f1.equals(f2)).isTrue();
     }
 
     /**
@@ -208,6 +208,10 @@ public class GameOfLifeTests {
         if (hashFile("watch", LOAD_TEST) % 404 != -75) {
             fail("loadTest.txt has been modified. Please restore it to the original version.");
         }
+    }
+
+    public String newlineReplacer(String s) {
+        return s.replace("\r", "");
     }
 
     private static int hashFile(String delimiter, String file) {
