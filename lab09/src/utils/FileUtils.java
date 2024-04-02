@@ -17,7 +17,7 @@ public class FileUtils {
      */
     public static void writeFile(String filename, String contents) {
         try {
-            Files.writeString(new File(filename).toPath(), contents);
+            Files.writeString(new File(filename).toPath(), newlineReplacer(contents));
         } catch (IOException ex) {
             throw new RuntimeException(ex);
         }
@@ -32,7 +32,7 @@ public class FileUtils {
      */
     public static String readFile(String filename) {
         try {
-            return Files.readString(new File(filename).toPath());
+            return newlineReplacer(Files.readString(new File(filename).toPath()));
         } catch (IOException ex) {
             throw new RuntimeException(ex);
         }
@@ -46,5 +46,14 @@ public class FileUtils {
      */
     public static boolean fileExists(String filename) {
         return new File(filename).exists();
+    }
+
+    /**
+     * Removes '\r' character from strings for improved compatability for this lab between Windows and other systems
+     * @param contents
+     * @return contents minus the '\r' char
+     */
+    private static String newlineReplacer(String contents) {
+        return contents.replace("\r", "");
     }
 }
