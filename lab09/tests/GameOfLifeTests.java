@@ -26,7 +26,7 @@ public class GameOfLifeTests {
     private static final String PENTADECATHLON = "patterns/pentadecathlon.txt";
 
     /**
-     * Compares the two states passed in after a generation has been passed in.
+     * Compares the two states, if orientation is aligned.
      * @param student
      * @param expected
      */
