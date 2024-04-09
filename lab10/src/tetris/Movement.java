@@ -55,7 +55,7 @@ public class Movement {
                 TETile[][] board = tetris.getBoard();
                 Tetromino.draw(t, board, t.pos.x, t.pos.y);
                 tetris.fillAux();
-                // auxFilled = true;
+
                 tetris.setAuxTrue();
                 tetris.setCurrentTetromino();
             }
@@ -109,7 +109,7 @@ public class Movement {
             TETile[][] board = tetris.getBoard();
             Tetromino.draw(t, board, t.pos.x, t.pos.y);
             tetris.fillAux();
-            // auxFilled = true;
+
             tetris.setAuxTrue();
             tetris.setCurrentTetromino();
         }
