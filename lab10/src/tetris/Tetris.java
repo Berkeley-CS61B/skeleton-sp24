@@ -51,7 +51,6 @@ public class Tetris {
     private void renderBoard() {
         ter.drawTiles(board);
         renderScore();
-        // the call to show is what displays previous
         StdDraw.show();
 
         if (auxFilled) {
@@ -130,7 +129,6 @@ public class Tetris {
      */
     public void runGame() {
         resetActionTimer();
-        resetFrameTimer();
 
         // TODO: Set up your game loop. The game should keep running until the game is over.
         // Use helper methods inside your game loop, according to the spec description.
@@ -296,25 +294,10 @@ public class Tetris {
     }
 
     /**
-     * Calculates the delta time with the previous frame.
-     * @return the amount of time between the previous frame with the present
-     */
-    private long frameDeltaTime() {
-        return System.currentTimeMillis() - prevFrameTimestamp;
-    }
-
-    /**
      * Resets the action timestamp to the current time in milliseconds.
      */
     private void resetActionTimer() {
         prevActionTimestamp = System.currentTimeMillis();
-    }
-
-    /**
-     * Resets the frame timestamp to the current time in milliseconds.
-     */
-    private void resetFrameTimer() {
-        prevFrameTimestamp = System.currentTimeMillis();
     }
 
 }
