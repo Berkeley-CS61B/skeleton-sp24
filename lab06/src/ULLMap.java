@@ -88,7 +88,7 @@ public class ULLMap<K, V>  implements Map61B<K, V> {
             if (next == null) {
                 return null;
             }
-            return next.get(key);
+            return next.get(k);
         }
 
         /** Stores the key of the key-value pair of this node in the list. */
