@@ -21,7 +21,7 @@ public class Alist{
     /*把x这个元素插入到这个列表的末尾*/
     public void addList(int x){
         if(size==items.length){
-            resize(size+100);
+            resize(size*2);
         }
         items[size++]=x;
     }
