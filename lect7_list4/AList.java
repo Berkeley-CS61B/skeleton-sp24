@@ -22,6 +22,9 @@ public class Alist{
 
     /*从这个列表获取元素*/
     public int get(int i){
+        if(i>=items.length){
+            throw new IllegalArgumentException();
+        }
         return items[i];
     }
 
@@ -29,4 +32,14 @@ public class Alist{
     public int size(){
         return size;
     }
+
+    /*从列表中删除元素，返回删除的数值*/
+    public int removeLast(){
+        int x=items[size-1];
+        items[size-1]=0;//Setting deleteditem to zero isnot necessary to
+        // preserve in variants, and thus not necessary forcorrectness.
+        size-=1;
+        return x;
+    }
+
 }
