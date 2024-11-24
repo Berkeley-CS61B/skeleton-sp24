@@ -11,8 +11,18 @@ public class Alist{
         size=0;
     }
 
+    /*将底层的数组大小调整为目标容量*/
+    private void resize(int capacity){
+        int[] a=new int capacity]
+        System.arraycopy(items,0,a,0,size);
+        items=a;
+    }
+
     /*把x这个元素插入到这个列表的末尾*/
     public void addList(int x){
+        if(size==items.length){
+            resize(size+100);
+        }
         items[size++]=x;
     }
 
